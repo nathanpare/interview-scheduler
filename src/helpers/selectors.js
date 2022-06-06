@@ -8,3 +8,22 @@ export function getAppointmentsForDay(state, day) {
   }
   return appointmentsForDay.appointments.map(id => state.appointments[id]);
 }
+
+export function getInterview(state, interview) {
+  if (interview === null) {
+    return null;
+  }
+  console.log(state, state.interviewers);
+  return {
+    student: interview.student,
+    interviewer: state.interviewers[interview.interviewer]
+  };
+
+  // const interviewersArray = Object.values(state.appointments.interviewers);
+  // console.log("getInterview", state.interviewers);
+  // const interviewer = interview.interviewer;
+  // console.log("interviewer", interviewer);
+  // const interviewerObject = interviewersArray.find(eachinterviewer => interviewer === eachinterviewer.id);
+  // console.log(interviewerObject);
+  // return interviewerObject;
+}
