@@ -9,6 +9,15 @@ export function getAppointmentsForDay(state, day) {
   return appointmentsForDay.appointments.map(id => state.appointments[id]);
 }
 
+export function getInterviewersForDay(state, day) {
+  console.log(state.days);
+  const interviewersForDay = state.days.find(eachDay => day === eachDay.name);
+  if (state.days.length === 0 || interviewersForDay === undefined) {
+    return [];
+  }
+  return interviewersForDay.interviewers.map(id => state.interviewers[id]);
+}
+
 export function getInterview(state, interview) {
   if (interview === null) {
     return null;
