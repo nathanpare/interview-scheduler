@@ -11,25 +11,28 @@ import { getAppointmentsForDay, getInterviewersForDay, getInterview } from "help
 
 import useApplicationData from "../hooks/useApplicationData"
 
-// const days = [
+// state.days = [
 //   {
 //     id: 1,
 //     name: "Monday",
+//     appointments: [1,2,3,4,5],
 //     spots: 2,
 //   },
 //   {
 //     id: 2,
 //     name: "Tuesday",
+//     appointments: [6,7,8,9,10],
 //     spots: 5,
 //   },
 //   {
 //     id: 3,
 //     name: "Wednesday",
+//     appointments: [11,12,13,14,15],
 //     spots: 0,
 //   },
 // ];
 
-// const appointments = {
+// state.appointments = {
 //   "1": {
 //     id: 1,
 //     time: "12pm",
