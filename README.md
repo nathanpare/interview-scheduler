@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-This is a full stack, single-page application to show my new skills with React.js API servers and databases
+This is a full stack, single-page application to show my new skills with React.js API servers and databases.
 
 ## Setup
 
@@ -9,7 +9,7 @@ Install dependencies with `npm install`.
 ## Setup API Server
 
 Download the following repository and follow the instructions
-[a link](https://github.com/lighthouse-labs/scheduler-api)
+[scheduler API](https://github.com/lighthouse-labs/scheduler-api)
  
 
 ## Running Webpack Development Server
@@ -44,7 +44,7 @@ npm run cypress
 
 ## Install these Dependencies
 
-- Dependencies
+### Dependencies
 
 - "axios": "^0.27.2"
 - "classnames": "^2.2.6"
@@ -53,7 +53,7 @@ npm run cypress
 - "react-dom": "^16.9.0"
 - "react-scripts": "3.0.0"
 
-- Dev Dependencies
+### Dev Dependencies
 
 - "@babel/core": "^7.4.3"
 - "@storybook/addon-actions": "^5.0.10"
