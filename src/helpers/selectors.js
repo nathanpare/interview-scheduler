@@ -1,7 +1,6 @@
 
 
 export function getAppointmentsForDay(state, day) {
-  console.log(state.days);
   const appointmentsForDay = state.days.find(eachDay => day === eachDay.name);
   if (state.days.length === 0 || appointmentsForDay === undefined) {
     return [];
@@ -10,7 +9,6 @@ export function getAppointmentsForDay(state, day) {
 }
 
 export function getInterviewersForDay(state, day) {
-  console.log(state.days);
   const interviewersForDay = state.days.find(eachDay => day === eachDay.name);
   if (state.days.length === 0 || interviewersForDay === undefined) {
     return [];
@@ -22,7 +20,6 @@ export function getInterview(state, interview) {
   if (interview === null) {
     return null;
   }
-  console.log(state, state.interviewers);
   return {
     student: interview.student,
     interviewer: state.interviewers[interview.interviewer]

@@ -21,7 +21,6 @@ export default function useApplicationData() {
     // console.log("current day",currentDay.appointments);
     currentDay.appointments.map((appointmentId) => {
       const currentAppointment = oldState.appointments[appointmentId]
-      console.log("this is the current appointment", currentAppointment);
       if (currentAppointment.interview === null) {
         counter += 1;
       }
