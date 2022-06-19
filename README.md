@@ -71,8 +71,8 @@ npm run cypress
 
 ## Screenshots
 
-!["Screenshot of Home Page"](https://github.com/nathanpare/LightBnB/blob/main/docs/Home%20Page.png?raw=true)
-!["Screenshot of Login Page"](https://github.com/nathanpare/LightBnB/blob/main/docs/Login%20Page.png?raw=true)
-!["Screenshot of Search Listings Page"](https://github.com/nathanpare/LightBnB/blob/main/docs/Search%20Listing%20Page.png?raw=true)
-!["Screenshot of Create Listing Page"](https://github.com/nathanpare/LightBnB/blob/main/docs/Create%20Listing%20Page.png?raw=true)
-!["Screenshot of My Listings Page"](https://github.com/nathanpare/LightBnB/blob/main/docs/My%20Listings%20Page.png?raw=true)
+!["Screenshot of Home Page"](https://github.com/nathanpare/interview-scheduler/blob/master/docs/Home%20Page.png?raw=true)
+!["Screenshot of Appointment Form"](https://github.com/nathanpare/interview-scheduler/blob/master/docs/Appointment%20Form.png?raw=true)
+!["Screenshot of Booked Appointment"](https://github.com/nathanpare/interview-scheduler/blob/master/docs/Booked%20Appointment%20.png?raw=true)
+!["Screenshot of Confirmation"](https://github.com/nathanpare/interview-scheduler/blob/master/docs/Confirmation.png?raw=true)
+!["Screenshot of Error"](https://github.com/nathanpare/interview-scheduler/blob/master/docs/Error.png?raw=true)
